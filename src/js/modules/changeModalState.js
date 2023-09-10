@@ -32,8 +32,6 @@ const changeModalState = (state) => {
                             state[prop] = item.value;
                             break;
                     }
-
-                    console.log(state)
                 })
             });
         }
