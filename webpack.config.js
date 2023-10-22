@@ -132,7 +132,7 @@ module.exports = (env, argv) => {
     plugins: [
       new HtmlWebpackPlugin({
         template: path.resolve(__dirname, "src/index.html"),
-        filename: "main.html",
+        filename: "index.html",
       }),
       new CleanWebpackPlugin(),
       // применять изменения только при горячей перезагрузке
