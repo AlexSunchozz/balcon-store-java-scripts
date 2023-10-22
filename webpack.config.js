@@ -131,7 +131,7 @@ module.exports = (env, argv) => {
     // Подключение плагинов
     plugins: [
       new HtmlWebpackPlugin({
-        template: path.resolve(__dirname, "src/main.html"),
+        template: path.resolve(__dirname, "src/index.html"),
         filename: "index.html",
       }),
       new CleanWebpackPlugin(),
