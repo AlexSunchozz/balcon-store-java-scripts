@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
+  "homepage": "https://alexsunchozz.github.io/balcon-store-java-scripts/",
   "scripts": {
     "start": "npx webpack --mode development",
     "build": "npx webpack --mode production",
