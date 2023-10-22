@@ -2,7 +2,7 @@
   "name": "window",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/main.html",
+  "main": "./dist/index.html",
   "scripts": {
     "start": "npx webpack --mode development",
     "build": "npx webpack --mode production",
